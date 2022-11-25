@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+     margin: 0; 
+     font-weight: lighter;
+}
+.top {
+     background-image: url(download.png);
+      background-size: cover; 
+      height: 90vh;
+       opacity: 90%;
+        z-index: -2;
+}
+.menu img {
+    float: left;
+     width: 300px;
+      padding-left: 90px;
+}
+.bghitam {
+    background: black;
+     height: 90vh; 
+     position: absolute; 
+     top:0; 
+     left: 0; 
+     right: 0; 
+     opacity: 50%;
+      z-index: -3;
+}
+.menu ul{list-style: none;display: inline-flex; float: right; padding-right: 80px; padding-top: 20px;
+}
+.menu ul li{padding-right: 20px; color: white;
+}
+.menu ul li a {text-decoration:none; cursor: pointer; color: white;
+}
+.menu ul li a:hover {color: #1CAAE9;
+}
+#jurusan { padding-top: 50px; text-align: center; 
+}
+#jurusan h2 h3 p {font-weight: lighter; 
+}
+#jurusan p {opacity: 100%;
+}
+.alumni{
+    width: 1350px;
+     background-color: rgb(112, 125, 141);
+}
+.alumni img{width: 400px;
+}
+.keahlian img {width: 50px; }
+.keahlian {
+    padding: 50px;
+     margin: auto;
+}
+.grid {display: grid; grid-template-columns: 1fr 1fr 1fr; width: 80%; 
+}
+.depan { opacity: 70%; padding-top: 50px; 
+}
+.depan img {width: 100%; z-index: -3; height: 300px;
+}
+.struktur{
+     width: 1350px;
+}
+.struktur img{
+    border-radius: 50%;
+}
+.namaguru{
+    width: 1350px;
+}
+.namaguru img{ 
+    border-radius: 50%;
+}
+
+.struktur img {width: 100px;height: 90px;
+}
+.organisasi {text-align: center; font-weight: lighter; padding-top: 50px;
+}
+.organisasi h1 {opacity: 80%;
+}
+.organisasi p{opacity: 50%;
+}
+.grid2 {display: grid; grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    background: black; 
+    color: white;
+     opacity: 90%; 
+     padding: 20px;
+     padding-left:120px;
+     height: max-content;
+}
+.footer p{opacity: 30%;
+}
+.footer a{text-decoration: none; color: white;
+}
